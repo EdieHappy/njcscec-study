@@ -1,0 +1,63 @@
+html,
+body,
+#app {
+  height: 100%;
+}
+
+a:active {
+  opacity: .8;
+}
+
+.study-page{
+    .no-data{
+        width:100%;
+        margin-top: rem(100);
+        .no-data-bg{
+            margin:0 auto;
+            width:rem(130);
+            height: rem(156.5);
+            background: url(../img/no-data.png) no-repeat;
+            background-size:rem(130) rem(156.5);
+        }
+        .no-data-message{
+            font-size: rem(18);
+            color:#262626;
+            text-align: center;
+            margin-top: rem(40);
+        }
+    }
+}
+
+.van-dialog{
+    .van-dialog__message{
+        font-size: rem(16);
+        opacity: .82;
+        color:#000;
+        p{
+            height:rem(30);
+            line-height: rem(30);
+        }
+    }
+    .van-dialog__confirm{
+        .van-button__text{
+            // color:#000;
+            // opacity: .82;
+            font-size: rem(16);
+            // font-weight: bold;
+            color:#1D6FE9;
+        }
+    }
+    .van-dialog__cancel{
+        .van-button__text{
+            font-size: rem(16);
+            // font-weight: bold;
+            color:#1D6FE9;
+        }
+    }
+}
+.van-overlay{
+    background-color: rgba(0,0,0,.55);
+}
+.loading-box{
+    padding-top: rem(200);
+}
